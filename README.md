@@ -39,6 +39,7 @@ sns.lineplot(data['forehead_width_cm'],data['forehead_height_cm'], hue=data["gen
 #visualising nose length data
 sns.lineplot(data['nose_long'],data['nose_wide'], hue=data["gender"])
 ```
+![Graph](https://github.com/aryanraj2713/Gender-classification/blob/main/download.png)
 
 **3. Encoding data and splitting data**
 ```
