@@ -27,3 +27,19 @@ data.head(20)
 data.isnull().sum()
 data.describe()
 ```
+**Encoding data and splitting data**
+```
+twogender = {'Female':0, 'Male':1}
+data['gender'] = data['gender'].map(twogender)
+
+X = data.drop('gender', axis=1)
+y = data['gender']
+
+#splitting data for testing and traing process
+from sklearn.model_selection import train_test_split, GridSearchCV
+X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.3)
+print(X_train.shape)
+print(X_val.shape)
+print(y_train.shape)
+print(y_val.shape)
+```
