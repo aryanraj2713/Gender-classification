@@ -43,3 +43,12 @@ print(X_val.shape)
 print(y_train.shape)
 print(y_val.shape)
 ```
+**Now we will test diffrent Sklearn Models to find best accuracy**
+**Importing All required prerequisites**
+```
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, plot_confusion_matrix
+from sklearn.ensemble import RandomForestClassifier
+```
