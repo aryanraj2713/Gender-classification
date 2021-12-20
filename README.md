@@ -44,7 +44,9 @@ print(y_train.shape)
 print(y_val.shape)
 ```
 **Now we will test diffrent Sklearn Models to find best accuracy**
+
 **Importing All required prerequisites**
+
 ```
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
