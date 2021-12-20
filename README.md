@@ -27,6 +27,18 @@ data.head(20)
 data.isnull().sum()
 data.describe()
 ```
+# Visualising physical chacacter diffrence using Graph
+
+```
+#visualising forehead length data
+sns.lineplot(data['forehead_width_cm'],data['forehead_height_cm'], hue=data["gender"])
+```
+
+```
+#visualising nose length data
+sns.lineplot(data['nose_long'],data['nose_wide'], hue=data["gender"])
+```
+
 **3. Encoding data and splitting data**
 ```
 twogender = {'Female':0, 'Male':1}
