@@ -19,3 +19,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 ```
+**Loading Data and exploring data**
+```
+data = pd.read_csv("L:\Gender classification\gender_classification_v7.csv")
+data.head(20)
+#checking for null values
+data.isnull().sum()
+data.describe()
+```
