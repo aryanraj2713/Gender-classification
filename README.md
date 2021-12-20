@@ -5,7 +5,7 @@
 
 Data set credits: Kraggle.com
 
-**Importing Libraries**
+**1.Importing Libraries**
 
 ```
 import pandas as pd
@@ -19,7 +19,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 ```
-**Loading Data and exploring data**
+**2.Loading Data and exploring data**
 ```
 data = pd.read_csv("L:\Gender classification\gender_classification_v7.csv")
 data.head(20)
@@ -27,7 +27,7 @@ data.head(20)
 data.isnull().sum()
 data.describe()
 ```
-**Encoding data and splitting data**
+**3.Encoding data and splitting data**
 ```
 twogender = {'Female':0, 'Male':1}
 data['gender'] = data['gender'].map(twogender)
@@ -45,7 +45,7 @@ print(y_val.shape)
 ```
 **Now we will test diffrent Sklearn Models to find best accuracy**
 
-**Importing All required prerequisites**
+**4.Importing All required prerequisites**
 
 ```
 from sklearn.linear_model import LogisticRegression
@@ -54,7 +54,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, plot_confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 ```
-**Decision tree-classifier**
+**5.Decision tree-classifier**
 ```
 dt = DecisionTreeClassifier(random_state=0)
 
@@ -63,7 +63,7 @@ dt_pred = dt.predict(X_val)
 dt_acc = accuracy_score(y_val, dt_pred)
 print('Accuracy of Decision Tree is: {:.2f}%'.format(dt_acc*100))
 ```
-**RandomforestClassifier**
+**6.RandomforestClassifier**
 ```
 rf = RandomForestClassifier(random_state=0)
 
@@ -72,7 +72,7 @@ rf_pred = rf.predict(X_val)
 rf_acc = accuracy_score(y_val, rf_pred)
 print('Accuracy of Random Forest is: {:.2f}%'.format(rf_acc*100))
 ```
-**Logistic regression**
+**7.Logistic regression**
 ```
 lr = LogisticRegression(random_state=0)
 
@@ -81,7 +81,7 @@ lr_pred = lr.predict(X_val)
 lr_acc = accuracy_score(y_val, lr_pred)
 print('Accuracy of Logistic Regression is: {:.2f}%'.format(lr_acc*100))
 ```
-**K-nearest neighbour**
+**8.K-nearest neighbour**
 ```
 knn = KNeighborsClassifier()
 params = {'n_neighbors':[2,3,4,5,6,7,8,9]}
