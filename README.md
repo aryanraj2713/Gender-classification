@@ -54,3 +54,21 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, plot_confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 ```
+**Decision tree-classifier**
+```
+dt = DecisionTreeClassifier(random_state=0)
+
+dt.fit(X_train, y_train)
+dt_pred = dt.predict(X_val)
+dt_acc = accuracy_score(y_val, dt_pred)
+print('Accuracy of Decision Tree is: {:.2f}%'.format(dt_acc*100))
+```
+**randomforestClassifier**
+```
+rf = RandomForestClassifier(random_state=0)
+
+rf.fit(X_train, y_train)
+rf_pred = rf.predict(X_val)
+rf_acc = accuracy_score(y_val, rf_pred)
+print('Accuracy of Random Forest is: {:.2f}%'.format(rf_acc*100))
+```
