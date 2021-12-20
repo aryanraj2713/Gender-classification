@@ -4,3 +4,10 @@
 *Python Libraries like Pandas,Numpy and Sklearn are used In this.*
 
 #Data set credits: Kraggle.com
+
+```
+import pandas as pd
+import sklearn
+import numpy as np
+
+```
