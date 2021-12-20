@@ -63,7 +63,7 @@ dt_pred = dt.predict(X_val)
 dt_acc = accuracy_score(y_val, dt_pred)
 print('Accuracy of Decision Tree is: {:.2f}%'.format(dt_acc*100))
 ```
-**randomforestClassifier**
+**RandomforestClassifier**
 ```
 rf = RandomForestClassifier(random_state=0)
 
@@ -72,3 +72,37 @@ rf_pred = rf.predict(X_val)
 rf_acc = accuracy_score(y_val, rf_pred)
 print('Accuracy of Random Forest is: {:.2f}%'.format(rf_acc*100))
 ```
+**Logistic regression**
+```
+lr = LogisticRegression(random_state=0)
+
+lr.fit(X_train, y_train)
+lr_pred = lr.predict(X_val)
+lr_acc = accuracy_score(y_val, lr_pred)
+print('Accuracy of Logistic Regression is: {:.2f}%'.format(lr_acc*100))
+```
+**K-nearest neighbour**
+```
+knn = KNeighborsClassifier()
+params = {'n_neighbors':[2,3,4,5,6,7,8,9]}
+
+model = GridSearchCV(knn, params, cv=5)
+model.fit(X_train, y_train)
+model.best_params_
+
+kn = KNeighborsClassifier(n_neighbors=8)
+
+kn.fit(X_train, y_train)
+kn_pred = kn.predict(X_val)
+kn_acc = accuracy_score(y_val, kn_pred)
+print('Accuracy of KNeighbors is: {:.2f}%'.format(kn_acc*100))
+```
+#RESULTS
+
+**Accuracy of Decision Tree is: 96.87%**
+
+**Accuracy of Random Forest is: 97.53%**
+
+**Accuracy of Logistic Regression is: 97.27%**
+
+**Accuracy of KNeighbors is: 97.20%**
