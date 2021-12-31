@@ -120,3 +120,16 @@ print('Accuracy of KNeighbors is: {:.2f}%'.format(kn_acc*100))
 **3. Accuracy of Logistic Regression is: 97.27%**
 
 **4. Accuracy of KNeighbors is: 97.20%**
+
+## Contribution 
+
+Contributions are always welcome! You can contribute to this project in the following way:
+- [ ] Deployment of model
+- [ ] Accuracy improvement
+- [ ] Bug fixes
+
+## Author
+
+* Aryan Raj
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Aryan Raj](https://www.linkedin.com/in/aryan-raj-3a68b39a/)
