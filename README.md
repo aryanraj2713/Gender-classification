@@ -137,7 +137,7 @@ File index.html(interface for deployed webapp)
 
 ![HTML TEMPLATE](https://github.com/aryanraj2713/Gender-classification/blob/main/Index.html.jpg)
 
-## Contribution 
+## Contribution(s)
 
 Contributions are always welcome! You can contribute to this project in the following way:
 - [ ] Deployment of model
