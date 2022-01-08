@@ -115,11 +115,21 @@ print('Accuracy of KNeighbors is: {:.2f}%'.format(kn_acc*100))
 
 **1. Accuracy of Decision Tree is: 96.87%**
 
+It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
+It is a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
+
 **2. Accuracy of Random Forest is: 97.53%**
+
+Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
 
 **3. Accuracy of Logistic Regression is: 97.27%**
 
+Logistic regression is one of the most popular Machine Learning algorithms, which comes under the Supervised Learning technique. It is used for predicting the categorical dependent variable using a given set of independent variables
+
 **4. Accuracy of KNeighbors is: 97.20%**
+
+K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categorie
+K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
 
 ## Contribution 
 
