@@ -27,7 +27,7 @@ data.head(20)
 data.isnull().sum()
 data.describe()
 ```
-# Visualising physical character diffrence using Graph
+# Visualizing physical character diffrence using Graph
 
 ```
 #visualising forehead length data
