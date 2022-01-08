@@ -111,7 +111,7 @@ kn_pred = kn.predict(X_val)
 kn_acc = accuracy_score(y_val, kn_pred)
 print('Accuracy of KNeighbors is: {:.2f}%'.format(kn_acc*100))
 ```
-#RESULTS
+# RESULTS
 
 **1. Accuracy of Decision Tree is: 96.87%**
 
