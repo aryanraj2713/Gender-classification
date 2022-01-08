@@ -132,7 +132,9 @@ K-NN algorithm assumes the similarity between the new case/data and available ca
 K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
 
 **Deployment process(in-complete)**
+
 File index.html(interface for deployed webapp)
+
 ![HTML TEMPLATE](https://github.com/aryanraj2713/Gender-classification/blob/main/download.png)
 
 ## Contribution 
