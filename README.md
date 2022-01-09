@@ -133,7 +133,7 @@ K-NN algorithm stores all the available data and classifies a new data point bas
 
 # Deployment process(in-complete)
 
-File index.html(interface for deployed webapp)
+File index.html(interface for deployment of webapp)
 
 ![HTML TEMPLATE](https://github.com/aryanraj2713/Gender-classification/blob/main/Index.html.jpg)
 ```
