@@ -9,7 +9,7 @@ model=pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
 def input():
-    return render_template("index.html")
+    return render_template("index/home.html")
 
 @app.route('/predict',methods=['POST','GET'])
 def result():
@@ -18,17 +18,10 @@ def result():
     print(List)
     print(final)
     prediction=model.predict_proba(final)
-    output='{0:.{1}f}'.format(prediction[0][1], 2)
+    output = '{0:.{1}f}'.format(prediction[0][1], 2)
 
 result()
 print(output)
-
-
-
-
-
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
