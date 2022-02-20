@@ -137,7 +137,12 @@ K-NN algorithm stores all the available data and classifies a new data point bas
 
 File index.html(interface for deployment of webapp)
 
-![HTML TEMPLATE](https://github.com/aryanraj2713/Gender-classification/blob/main/Index.html.jpg)
+
+
+![Screenshot 2022-02-20 180258](https://user-images.githubusercontent.com/75358720/154842687-644b86c0-e04b-4de8-be9a-5419ac1e42fa.jpg)
+
+
+
 ```
 import pandas as pd
 import sklearn
