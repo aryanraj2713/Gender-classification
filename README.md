@@ -47,7 +47,7 @@ K-NN algorithm stores all the available data and classifies a new data point bas
 ![Screenshot 2022-04-01 150931](https://user-images.githubusercontent.com/75358720/161238412-64f7746a-573e-4e0e-9cce-8b45c1fd2efa.png)
 
 
-# Deployment process(in-complete)
+# Deployment process
 
 File index.html(interface for deployment of webapp)
 
