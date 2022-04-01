@@ -1,4 +1,4 @@
-# Gender-classification
+# 🧑‍🦰👩‍🦰Gender-classification
 ![Machine Learning](https://user-images.githubusercontent.com/75358720/149663749-1cd54223-c0cc-498b-8b7b-eaf41f3df127.png)
 
 
@@ -9,7 +9,7 @@ Data set credits: Kaggle.com
 
 
 
-# Visualizing physical characters & diffrences using Graphs and plots
+# ⭐Visualizing physical characters & diffrences using Graphs and plots
 
 
 ![__results___12_1](https://user-images.githubusercontent.com/75358720/161202870-db76e2bd-c9d1-4d02-9804-f32afb3fafd7.png)
@@ -25,14 +25,14 @@ Data set credits: Kaggle.com
 
 
 
-# Accuracy of Various models we trained
+# ✨Accuracy of Various models we trained
 
 **1. Accuracy of Decision Tree is: 96.87%**
 
 It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
 It is a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
 
-**2. Accuracy of Random Forest is: 97.53%**
+**2. Accuracy of Random Forest is: 97.53%**👑
 
 Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
 
@@ -47,7 +47,7 @@ K-NN algorithm stores all the available data and classifies a new data point bas
 ![Screenshot 2022-04-01 150931](https://user-images.githubusercontent.com/75358720/161238412-64f7746a-573e-4e0e-9cce-8b45c1fd2efa.png)
 
 
-# Deployment process
+# 🎯Deployment process
 
 File index.html(interface for deployment of webapp)
 
