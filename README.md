@@ -11,17 +11,16 @@ Data set credits: Kaggle.com
 
 # Visualizing physical characters & diffrences using Graphs and plots
 
-```
-#visualising forehead length data
-sns.lineplot(data['forehead_width_cm'],data['forehead_height_cm'], hue=data["gender"])
-```
-![Graph](https://github.com/aryanraj2713/Gender-classification/blob/main/Img1.png)
 
-```
-#visualising nose length data
-sns.lineplot(data['nose_long'],data['nose_wide'], hue=data["gender"])
-```
-![Graph](https://github.com/aryanraj2713/Gender-classification/blob/main/download.png)
+![__results___12_1](https://user-images.githubusercontent.com/75358720/161202870-db76e2bd-c9d1-4d02-9804-f32afb3fafd7.png)
+
+
+![__results___13_2](https://user-images.githubusercontent.com/75358720/161202956-f51c325e-055b-4a33-950c-0c99ffff2341.png)
+
+
+
+![__results___14_2](https://user-images.githubusercontent.com/75358720/161202997-2beef8c9-61db-491b-b18a-9a3eb54ccf0d.png)
+
 
 
 
