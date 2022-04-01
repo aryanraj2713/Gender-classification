@@ -65,7 +65,7 @@ Contributions are always welcome! You can contribute to this project in the foll
 - [ ] Accuracy improvement
 - [ ] Bug fixes
 
-<div align="center"><h2><strong>Authors of this Repository 🤝</strong></h2></div>
+<div align="center"><h2><strong>Author of this Repository 🤝</strong></h2></div>
 
 <table align="center">
 <tr align="center">
