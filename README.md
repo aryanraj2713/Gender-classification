@@ -192,8 +192,41 @@ Contributions are always welcome! You can contribute to this project in the foll
 - [ ] Accuracy improvement
 - [ ] Bug fixes
 
-## Author
+<div align="center"><h2><strong>Authors of this Repository 🤝</strong></h2></div>
+
+<table align="center">
+<tr align="center">
+<td>
+
+**Aryan Raj**
+
+<p align="center">
+<img src = "https://media-exp1.licdn.com/dms/image/C4D03AQEvTogVnAnOvQ/profile-displayphoto-shrink_400_400/0/1630781238410?e=1651708800&v=beta&t=65-rLRpsU0Xt_10KvVYcv1EMyXFFMyuiuy9Sk_u9rhs"  height="120" alt="Aryan raj">
+</p>
+<p align="center">
+<a href = "https://github.com/aryanraj2713"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aryan-raj-3a68b39a/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+</td>
+
+
+
+
+
+</table>
+
+
 
 
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Aryan Raj](https://www.linkedin.com/in/aryan-raj-3a68b39a/)
+ <div align="left">
+ <p>
+ <br>
+   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?logo=Microsoft%20Word&style=for-the-badge" height="28"/><br>
+   <br><strong>Gender-Classification</strong> is under MIT License, Please Read the <strong>LICENSE</strong>
+  <p>
+ </div>
+ <br>
