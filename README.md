@@ -182,7 +182,7 @@ Contributions are always welcome! You can contribute to this project in the foll
 
 
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by [Aryan Raj](https://www.linkedin.com/in/aryan-raj-3a68b39a/)
+
  <div align="left">
  <p>
  <br>
