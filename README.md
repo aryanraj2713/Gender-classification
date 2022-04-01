@@ -44,6 +44,8 @@ Logistic regression is one of the most popular Machine Learning algorithms, whic
 
 K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categorie
 K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
+![Screenshot 2022-04-01 150931](https://user-images.githubusercontent.com/75358720/161238412-64f7746a-573e-4e0e-9cce-8b45c1fd2efa.png)
+
 
 # Deployment process(in-complete)
 
