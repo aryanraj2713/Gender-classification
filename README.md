@@ -32,7 +32,7 @@ Data set credits: Kaggle.com
 It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
 It is a graphical representation for getting all the possible solutions to a problem/decision based on given conditions.
 
-**2. Accuracy of Random Forest is: 97.53%**👑
+**2. Accuracy of Random Forest is: 97.53%**
 
 Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.
 
